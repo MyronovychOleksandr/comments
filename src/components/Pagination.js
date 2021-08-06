@@ -23,7 +23,7 @@ const Pagination = ({ last_page, onLoadNew }) => {
         <Item key={number}>
           <a
             id={number}
-            href="!#"
+            href="#"
             onClick={(e) => onLoadNew(Number(e.target.id))}
           >
             {number}
